@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS sizing units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid blue;
+            width:  100vh;
+            font-size: 18px;
+        }
+        .box p{
+            font-size: 1rem;
+        }
+        html{
+            font-size: 32px;
+        }
+        .mycontainer{
+            width: 100vmin;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing.
+        </p>
+        <input type="text"  placeholder="Enter your details">
+    </div>
+    <div class="mycontainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, explicabo?
+
+        </p>
+    </div>
+</body>
+</html>

@@ -9,5 +9,5 @@ p{
 }
 
 div p:nth-child(3){
-    color: red
+    color: red  
 }
