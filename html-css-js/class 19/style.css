@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&display=swap');
+
+h1{
+    color: red;
+    text-align: center;
+}
+p{
+    font-family: "Monomakh", serif;
+    text-decoration: double;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration-color:red ;
+    text-decoration-style: dashed;
+    border: 3px solid red;
+    /* text-indent: 45px; */
+    text-overflow: ellipsis;
+}
+.lorem{
+    border: 5px solid blue;
+    width: 45px;
+    overflow: hidden;
+    word-break: break-all;
+    text-align: center;
+}

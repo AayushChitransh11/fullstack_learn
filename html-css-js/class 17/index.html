@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* div{
+            background-color: red;
+        } */
+        .red{
+            background-color: red;
+        }
+        #green{
+            background-color: aqua;
+        }
+        /*child selector */
+        #green > p{
+            background-color: beige;
+        }
+        
+        /* */
+         /*Descendant selector */
+         div p{
+            background-color: purple;
+         }
+
+         /*universal selector */
+         *{
+            padding: 0;
+            margin: 0 ;
+         }
+
+         /* psedo selector */
+
+        div  a:hover{
+            background-color: rgb(11, 181, 181);
+         }
+         div a:visited{
+            color: red;
+            background-color: bisque;
+         }
+         a:active{
+            background-color: pink;
+         }
+    </style>
+</head>
+<body>
+    <div class="red">
+        I am a div.
+    </div>
+    <div>
+        I am another div.
+        <article>Lorem ipsum dolor sit.
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </article>
+       
+    </div>
+    <div id="green">
+        I am third div.
+        <p>I am para</p>
+        <a href="www.aayushchitransh.com">Aayush</a>
+    </div>
+</body>
+</html>
