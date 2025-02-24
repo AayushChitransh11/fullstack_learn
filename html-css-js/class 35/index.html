@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS More on Selectors</title>
+    <style>
+        /* .box:first-child{
+            color:red
+        }
+        [data-color="primary"]{
+            background-color:bisque
+        }
+        .box:nth-child(odd){
+            background-color: aqua;
+        }
+        .box:nth-last-child(1){
+            color: red;
+        } */
+        .boxes::before{
+            content: "Aayush";
+        }
+        .boxes::after{
+            content: "Chitransh";
+        }
+        ::selection{
+            background-color: black;
+            color: purple;
+        }
+        .box::first-letter{
+            font-size: 45px;
+        }
+    </style>
+</head> 
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, saepe praesentium! Doloribus, corporis quidem. Ad, rem explicabo reiciendis porro eveniet non facere fugiat possimus recusandae voluptate, sit delectus! Distinctio reiciendis dolor nam, expedita rerum atque, dicta, natus voluptatibus quisquam dignissimos blanditiis sapiente? Perspiciatis, facere quas.
+
+        </div>
+        <div class="box" data-color="primary">Hey I am div tag</div>
+        <div class="box">Hey I am div tag</div>
+        <div class="box">Hey I am div tag</div>
+        <div class="box">Hey I am div tag</div>
+        
+    </div>
+    
+</body>
+</html>

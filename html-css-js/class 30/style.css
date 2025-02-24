@@ -1,0 +1,23 @@
+:root{
+    --color:rgba(155, 211, 0, 0.504);
+    --seccolor:rgb(190, 109, 109);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    background-color: var(--color);
+    margin: 5px;
+}
+
+p{
+    background-color: var(--seccolor);
+}
+ul li:first-child{
+    --color:blue;
+    background-color: var(--color,red);
+}

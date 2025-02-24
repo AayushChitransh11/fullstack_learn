@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --color:rgb(189, 189, 219);
+    --seccolor:darkblue;
+}
+div{
+    display: flex;
+    background-color: var(--color);
+}
+nav{
+    justify-content: center;
+}
+ul li{
+    
+    color: var(--seccolor);
+    display: inline;
+}
